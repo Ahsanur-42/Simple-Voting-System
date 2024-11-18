@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Web Lab Final</title>
+</head>
+
+<body>
+    <h1>Vote Count!</h1>
+    <table>
+        <tr>
+            <th>Candidate</th>
+            <th>Votes</th>
+        </tr>
+
+        <tr>
+            <td>Hen</td>
+            <td id="hen-votes">0</td>
+        </tr>
+
+        <tr>
+            <td>Speaker</td>
+            <td id="speaker-votes">0</td>
+        </tr>
+
+        <tr>
+            <td>Hand Fan</td>
+            <td id="hand-fan-votes">0</td>
+        </tr>
+    </table>
+
+    <div class="container">
+        <h2>Cast Your Vote!</h2>
+
+        <div class="candidate">
+            <img src="https://static.vecteezy.com/system/resources/previews/006/126/905/original/hen-icon-in-transparent-background-free-vector.jpg" alt="Hen">
+
+            <button class="vote-button" id="hen-button">Vote +</button>
+            <button class="vote-button" id="hen-button2">Vote -</button>
+            
+        </div>
+
+        <div class="candidate">
+            <img src="https://s.ecrater.com/stores/109924/4b3a6cbea05b8_109924b.jpg" alt="Speaker">
+
+            <button class="vote-button" id="speaker-button">Vote +</button>
+            <button class="vote-button" id="speaker-button2">Vote -</button>
+        </div>
+
+        <div class="candidate">
+            <img src="https://static.vecteezy.com/system/resources/previews/025/366/448/non_2x/hand-fan-icon-fan-illustration-sign-hot-symbol-or-logo-vector.jpg" alt="Hand Fan">
+
+            <button class="vote-button" id="hand-fan-button">Vote +</button>
+            <button class="vote-button" id="hand-fan-button2">Vote -</button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
